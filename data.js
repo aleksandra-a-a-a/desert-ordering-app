@@ -28,8 +28,8 @@ export const menuArray = [
         id: 3
     },
     {
-        name: "Croissant",
-        ingredients: [" flour", " butter", " eggs"],
+        name: "Plain croissant",
+        ingredients: [" flour", " butter", " eggs", " sugar" ],
         price: 3,
         emoji: "🥐",
         id: 4
