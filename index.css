@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baskervville', serif;
+    text-align: center;
+} 
+
+main {
+    text-align: center;
+}
+header {
+    width: 100vw;
+    height: AUTO;
+    background: url('dots.jpeg');
+    background-size: contain;
+    padding: 20px 0 20px 20px;
+
+}
+h1 {
+    margin: 0px;
+    color: #881337;
+}
+
+#emoji {
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 1px #881337;
+    margin: 10px;
+}
+#desc {
+    font-style: italic;
+}
+#price {
+    font-size: 20px;
+}
+
+#add-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    outline: none;
+    background: white;
+    border-radius: 100%;
+    border: solid 1px black;
+}
+.button {
+    padding-top: 40px;
+}
+.pay-modal, #thank-you-modal {
+    display: none;
+    width: 400px;
+    height: 300px;
+    background: #FB7185;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 20px;
+}
+#thank-you-modal {
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+    color: white;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    
+}
+input {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+} 
+
+#pay-btn {
+    width:200px;
+    height: 50px;
+    background: #10B981;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    
+}
+.order-box {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.ordered-items {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.remove {
+    font-size: 15px;
+    font-style: italic;
+    color: gray;
+    margin-left: 10px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-around
+}
+
+#total-price {
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+#complete-order {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    background: #10B981;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#checkout-box {
+    display: none;
+}
+#order-btn-box {
+    display: none;
+    justify-content: center;
+}
+
+.close-all-btn, .close-payment-btn {
+    position: absolute;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    right: 0px;
+    top: 0px;
+    margin: 10px;
+}

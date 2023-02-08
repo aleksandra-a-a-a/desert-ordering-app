@@ -1,0 +1,50 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <!--CSS-->
+       <link rel="stylesheet" href="index.css">
+       	<!-- Font Awesome CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	    <!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Amciu Amciu Desserts</h1>
+            <p><b>The best cakes in town.</b></p>
+            </header>
+        <main>
+            <div id='menu'>
+            </div>
+            
+            <div id='checkout-box'>
+                
+                <!-- content here -->
+            </div>
+            <div id='total-price-box'>
+                
+            </div> 
+            <div id='order-btn-box'>
+                <button id='complete-order'>Complete order</button>
+            </div>
+            
+            <div class='pay-modal' id='pay-modal'>
+                <form id='pay-form'>
+                    <input id='form-input-name'type="text" placeholder="Enter your first name" required></input>
+                    <input id='form-input-card'type="number" placeholder="Enter your card number" required></input>
+                    <input id='form-input-cvv'type="number" placeholder="Enter CVV code" required></input>
+                    <button type="submit" form="pay-form" id='pay-btn'>PAY NOW</button>
+                    <button class='close-payment-btn' id='close-payment-btn'>X</button>
+                    
+                </form>
+            </div>
+            <div class='thank-you-modal' id='thank-you-modal'>
+                <h3>Thank you for ordering with us!</h3>
+                <button class='close-all-btn' id='close-all-btn'>X</button>
+            </div>
+        </main>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
