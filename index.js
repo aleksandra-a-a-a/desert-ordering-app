@@ -73,8 +73,9 @@ function handleOrderClick(){
 function handlePayClick(){
         if ((document.getElementById('form-input-name').value) && (document.getElementById('form-input-card').value) && (document.getElementById('form-input-cvv').value)){
         payModal.style.display = "none"
-        clear()  
-    }   thankYouModal.style.display = "flex"
+        clear()
+        thankYouModal.style.display = "flex"
+    }   
         
 }
 
