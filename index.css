@@ -49,9 +49,11 @@ h1 {
     background: white;
     border-radius: 100%;
     border: solid 1px black;
+    cursor:pointer;
 }
 .button {
     padding-top: 40px;
+    cursor:pointer;
 }
 .pay-modal, #thank-you-modal {
     display: none;
@@ -99,6 +101,7 @@ input {
     font-weight: bold;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
     
 }
 .order-box {
@@ -119,7 +122,8 @@ input {
 
 .total {
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    cursor: pointer;
 }
 
 #total-price {
@@ -138,6 +142,7 @@ input {
     background: #10B981;
     font-weight: bold;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #checkout-box {
