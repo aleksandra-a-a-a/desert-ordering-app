@@ -27,5 +27,18 @@ export const menuArray = [
         emoji: "🥧",
         id: 3
     },
-    
+    {
+        name: "Croissant",
+        ingredients: [" flour", " butter", " eggs"],
+        price: 3,
+        emoji: "🥐",
+        id: 4
+    },
+    {
+        name: "Chocolate chip cookie",
+        ingredients: [" flour", " butter", " eggs", " sugar", " chocolate chips"],
+        price: 4,
+        emoji: "🍪",
+        id: 5
+    },
 ]
